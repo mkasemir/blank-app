@@ -1,6 +1,9 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("Schnee-arbeit")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Ihr wollt nicht mehr Jeden Tag den Schnee Wegräumen?\nDann ist unser Service der Beste für euch!"
 )
+
+if st.button("Überraschung"):
+    st.balloons()
